@@ -65,7 +65,7 @@ const Home = () => {
                     <Card.Meta>系统信息总览</Card.Meta>
                     <Card.Description>
                       <p>名称：{statusState?.status?.system_name}</p>
-                      <p>版本：{statusState?.status?.version ? statusState?.status?.version : "unknown"}</p>
+                      {/* <p>版本：{statusState?.status?.version ? statusState?.status?.version : "unknown"}</p>
                       <p>
                         源码：
                         <a
@@ -74,7 +74,7 @@ const Home = () => {
                         >
                           https://github.com/songquanpeng/one-api
                         </a>
-                      </p>
+                      </p> */}
                       <p>启动时间：{getStartTimeString()}</p>
                     </Card.Description>
                   </Card.Content>
